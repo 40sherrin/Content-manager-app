@@ -9,7 +9,7 @@ export default function Home({resources}) {
     <Layout>
       <ResourceHighlight resources={resources.slice(0, 2)} />
       <NewsLetter />
-      <ResourceList resources={resources.slice(0, 4)} />
+      <ResourceList resources={resources} />
       <Footer />
     </Layout>
   )
